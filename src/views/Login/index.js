@@ -1,5 +1,5 @@
-import FormLogin from "./formLogin"
-import './css/login.css';
+import FormLogin from "./components/FormLogin"
+import './styles.css';
 
 const Login = ()=>(
     <div className = "login">

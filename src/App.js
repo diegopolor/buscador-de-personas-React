@@ -1,14 +1,17 @@
-import Login from './components/login/login'
+import Search  from './views/Search';
+import Header from './views/Header';
+
 
 import './App.css'
 import React from 'react';
 
-function App() {
-  return (   
-  <React.StrictMode>
-    <Login /> 
-  </React.StrictMode>
-  );
-}
+
+const App =() => (  
+    <React.StrictMode>
+      <Header />
+      <Search />
+    </React.StrictMode>
+);
+
 
 export default App;
