@@ -1,0 +1,12 @@
+.search-resultsItems{
+  width: 100%;
+  padding: 1rem 4rem;
+  background-color: white;
+}
+
+@media (max-width : 500px) {
+  .search-resultsItems{
+    font-size: 1.7rem;
+  }
+
+}

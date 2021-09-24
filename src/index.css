@@ -1,9 +1,16 @@
-html {
-  font-size: 16px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  box-sizing: border-box;
 
 }
 
+html {
+  font-size: 16px;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: rgb(230, 230, 230);
   margin: 0;
   padding: 0;
@@ -20,3 +27,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media (max-width : 800px) {
+  html{
+    font-size: 9px;
+
+  }
+
+}
+
+

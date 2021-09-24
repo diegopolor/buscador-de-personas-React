@@ -1,0 +1,15 @@
+.search-results{
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+   
+}
+
+@media (max-width : 720px) {
+    .search-results{
+        width: 100%;
+
+    }
+
+
+}
